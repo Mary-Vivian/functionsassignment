@@ -12,22 +12,18 @@ namereverse()
 // Using JS functions and an array of numbers, return positive if
 //  an element within the array is positive, negative i
 // f an element is negative, else zero
-// function Num(){
-//     let nums=[7,9,-4,9]
-//     nums.forEach((x)=>{
-        
-//             if(x >0){
-//                 println(positive);
-
-//             }
-//             else(x < 0);{
-//                 println(negative);
-//             }
-//             console.log({nums})
-
-//          } );   
-// }
-// Num();
+function Num(numberarr){
+    numberarr.forEach(y=>{
+        if(y>0){
+            console.log(("positive"))
+        }
+        else{
+            console.log(("negative"))
+        }
+    });
+    
+}
+ Num([7,-8,9,-1]);
 
 // Given an array of objects, where each object 
 // represents an employee with an id, name, and salary property,
@@ -41,6 +37,16 @@ function employees(){
     console.log({sorted});
 }
 employees()
+// Write a function that accepts an a
+// rray of numbers and uses the forEach()
+//  method to console.log each number multiplied by 2.
+function arrnum(num){
+    num.forEach(element => {
+        console.log((element*2))
+        
+    });
+}
+arrnum([6,9,8,7])
 
 
 
